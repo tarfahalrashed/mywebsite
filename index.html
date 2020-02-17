@@ -54,8 +54,9 @@
 					============================================= -->
 					<nav id="primary-menu" class="style-1" style="padding-right:110px">
 						<ul>
-							<li class="current"><a href="index.html"><div>Projects</div></a></li>
-							<li><a href="publications.html"><div>Publications</div></a></li>
+							<li><a href="#header"><div>About</div></a></li>
+							<li><a href="#projects"><div>Projects</div></a></li>
+							<li><a href="#publications"><div>Publications</div></a></li>
 							<li><a href="papers/CV.pdf" target="_blank"><div>CV</div></a></li>
 							<!-- <li><a href="about.html"><div>About</div></a></li> -->
 						</ul>
@@ -70,12 +71,12 @@
 
 		<!-- Page Title
 		============================================= -->
-		<section id="">
+		<!-- <section id=""> -->
 
 			<div class="container clearfix">
 
 
-				<div class="row" style="padding-left:40px; padding-right:130px">
+				<div class="row" style="padding-left:40px; padding-right:130px; padding-bottom:0px; margin-bottom: 0px;">
 
 					<div class="col-3">
 						<img src="img/tarfah.png" alt="" width="200" />
@@ -84,43 +85,36 @@
 					<div class="col-9">
 						<h1>Tarfah Alrashed</h1>
 
-						<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify">I am a Ph.D. student in Computer Science at <a href="https://www.csail.mit.edu" target="_blank">MIT CSAIL</a>, advised by <a href="https://people.csail.mit.edu/karger" target="_blank">David Karger</a>, and a member of the <a href="http://haystack.csail.mit.edu" target="_blank">Haystack Group</a> at MIT. My research is in the field of Human Computer Interaction, Information Retrieval, Data Science, and Semantic Web.</p>
-							<!-- Email:  tarfah@mit.edu-->
-						<img src="img/email.png" width="16px"/>  &nbsp; tarfah@mit.edu
-					  </br>
-						<img src="img/github.png" width="16px"/>  &nbsp; tarfahalrashed
+						<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify">I am a Ph.D. student in Computer Science at <a href="https://www.csail.mit.edu" target="_blank">MIT CSAIL</a>, advised by <a href="https://people.csail.mit.edu/karger" target="_blank">David Karger</a>, and a member of the <a href="http://haystack.csail.mit.edu" target="_blank">Haystack Group</a> at MIT.
+							My research is in the field of Human Computer Interaction, Information Retrieval, Data Science, and Semantic Web.
+							I work on designing and building systems that empowers people to access and manipulate data on the web without programming.
+						</p>
 
+						<div style="display: inline-block;">
+							<img src="img/email.png" width="16px"/> &nbsp; tarfah@mit.edu
+						</div>
+						<div style="display: inline-block;">
+							&nbsp;&nbsp;&nbsp;<img src="img/github.png" width="16px"/> &nbsp;<a src="https://github.com/tarfahalrashed" target="_blank">tarfahalrashed</a>
+						</div>
 
 					</div>
 
-
 				</div>
 
-
-				<!-- <div style="display:inline-block;">
-				</div>
-
-				<div style="display:inline-block; padding-left:30px">
-
-				<div> -->
-				<!-- <ol class="breadcrumb">
-					<li class="breadcrumb-item active"><a href="#">Project</a></li>
-					<li class="breadcrumb-item" aria-current="page">Publications</li>
-					<li class="breadcrumb-item"><a href="#">CV</a></li>
-				</ol> -->
 			</div>
 
-		</section><!-- #page-title end -->
+		<!-- </section> -->
+		<!-- #page-title end -->
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div id="projects" class="content-wrap">
 
 				<div class="container clearfix" style="padding-left:50px; padding-right:130px">
 
-					<!-- <h2>Projects</h2> -->
+					<h2 style="text-indent: 15px; border-bottom:0.5px solid #CCC;  padding-bottom:3px;">Projects</h2>
 
 					<div class="row">
 
@@ -138,11 +132,6 @@
 								<a href="https://github.com/tarfahalrashed/ScrAPIr" class="button button-mini button-border button-circle button-teal" target="_blank">GitHub</a>
 								<a href="https://www.youtube.com/watch?v=iiXFCycfRLg&t=3s" class="button button-mini button-border button-circle button-red" target="_blank">Video Demo</a>
 								<a href="http://scrapir.org" class="button button-mini button-border button-circle button-blue" target="_blank">scrapir.org</a>
-
-
-								<!-- <a href="https://github.com/tarfahalrashed/ScrAPIr" target="_blank">GitHub</a> |
-								<a href="https://www.youtube.com/watch?v=iiXFCycfRLg" target="_blank">Video Demo</a> |
-								<a href="http://scrapir.org" target="_blank">scrapir.org</a> -->
 							</p>
 						</div>
 
@@ -161,22 +150,20 @@
 						<div class="col-10">
 							<h4 style="padding-bottom:3px; margin-bottom:3px">Evaluating User Actions as a Proxy for Email Significance</h4>
 							<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify">The number of emails people receive every day can be overwhelming. Having a good estimate of the significance of emails forms the foundation for many downstream tasks
-(e.g. email prioritization); but determining significance at scale is expensive and
-challenging. In this work, we hypothesize that the cumulative set of actions on any
-individual email can be considered as a proxy for the perceived significance of that email.
-We propose two approaches to summarize observed actions on emails, which we then
-evaluate against the perceived significance. First approach is a fixed-form utility function
-parameterized on a set of weights. Second, we build machine-learning models to capture
-users' significance directly based on the observed actions. Our analysis suggests that there
-is a positive correlation between actions and significance of emails and that actions
-performed on personal and work emails are different. We also find that the degree of
-correlation varies across people, which may reflect the individualized nature of email
-activity patterns or significance.
-</br>
-								<!-- <a href="https://github.com/tarfahalrashed/ScrAPIr" target="_blank">GitHub</a> |
-								<a href="https://www.youtube.com/watch?v=iiXFCycfRLg" target="_blank">Video Demo</a> |
-								<a href="http://scrapir.org" target="_blank">scrapir.org</a> -->
-								<a href="papers/email_significance.pdf" target="_blank">Evaluating User Actions as a Proxy for Email Significance.</a> (WWW'18) </br>
+							(e.g. email prioritization); but determining significance at scale is expensive and
+							challenging. In this work, we hypothesize that the cumulative set of actions on any
+							individual email can be considered as a proxy for the perceived significance of that email.
+							We propose two approaches to summarize observed actions on emails, which we then
+							evaluate against the perceived significance. First approach is a fixed-form utility function
+							parameterized on a set of weights. Second, we build machine-learning models to capture
+							users' significance directly based on the observed actions. Our analysis suggests that there
+							is a positive correlation between actions and significance of emails and that actions
+							performed on personal and work emails are different. We also find that the degree of
+							correlation varies across people, which may reflect the individualized nature of email
+							activity patterns or significance.
+							</br>
+
+							<a href="papers/email_significance.pdf" target="_blank">Evaluating User Actions as a Proxy for Email Significance.</a> (WWW'19) </br>
 
 							</p>
 						</div>
@@ -197,17 +184,17 @@ activity patterns or significance.
 						<div class="col-10">
 							<h4 style="padding-bottom:3px; margin-bottom:3px">The Lifetime of Email Messages: A Large-Scale Analysis of Email Revisitation</h4>
 							<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify">Email continues to be one of the most important means of online
-communication, leading to a number of challenges related to information overload and
-email management. To better understand email management practices in detail, we
-examined the distribution of visits to emails over time. During their lifetime, emails may be
-visited once or several times, and with each visit different actions may be taken. Emails
-that are revisited over time are especially interesting because they represent an
-opportunity to improve email management and search. We examine a large-scale log
-analysis of email revisitation, the activities that people perform on revisited email
-messages, and the strategies they use to go back to these emails. Most emails have a short
-lifetime, with more than 33% having a lifetime of less than 5 minutes. Our findings have
-implications for designing email clients and intelligent agents that support both short- and
-long-term revisitation patterns.		</br>
+							communication, leading to a number of challenges related to information overload and
+							email management. To better understand email management practices in detail, we
+							examined the distribution of visits to emails over time. During their lifetime, emails may be
+							visited once or several times, and with each visit different actions may be taken. Emails
+							that are revisited over time are especially interesting because they represent an
+							opportunity to improve email management and search. We examine a large-scale log
+							analysis of email revisitation, the activities that people perform on revisited email
+							messages, and the strategies they use to go back to these emails. Most emails have a short
+							lifetime, with more than 33% having a lifetime of less than 5 minutes. Our findings have
+							implications for designing email clients and intelligent agents that support both short- and
+							long-term revisitation patterns.		</br>
 								<a href="papers/email_significance.pdf" target="_blank">The Lifetime of Email Messages: A Large-Scale Analysis of Email Revisitation.</a> (CHIIR'18) </br>
 							</p>
 						</div>
@@ -227,15 +214,10 @@ long-term revisitation patterns.		</br>
 							<h4 style="padding-bottom:3px; margin-bottom:3px">Extending a Reactive Expression Language with Data Update Actions for End-User Application Authoring</h4>
 							<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify">Mavo is a small extension to the HTML language that empowers non-programmers to create simple web applications. Authors can mark up any normal HTML document with attributes that specify data elements that Mavo makes editable and persists. But while applications authored with Mavo allow users to edit individual data items, they do not offer any programmatic data actions that can act in customizable ways on large collections of data simultaneously or that modify data according to a computation. We explore an extension to the Mavo language that enables non-programmers to author these richer data update actions. We show that it lets authors create a more powerful set of applications than they could previously, while adding little additional complexity to the authoring process. Through user evaluations, we assess how closely our data update syntax matches how novice authors would instinctively express such actions, and how well they are able to use the syntax we provided.
 							</br>
-								<!-- <a href="https://github.com/tarfahalrashed/CitySchema" target="_blank">GitHub</a> | -->
-								<!-- <a href="https://www.youtube.com/watch?v=GTB3qqi_2SM" target="_blank">Video Demo</a> |
-								<a href="https://mavo.io" target="_blank">mavo.io</a> -->
 								<a href="/papers/mavo_actions.pdf" target="_blank">Extending a Reactive Expression Language with Data Update Actions for End-User Application Authoring.</a> (UIST'18) </br>
-								<!-- </br> -->
 								<a href="https://github.com/mavoweb/mavo" class="button button-mini button-border button-circle button-teal" target="_blank">GitHub</a>
 								<a href="https://www.youtube.com/watch?v=GTB3qqi_2SM" target="_blank" class="button button-mini button-border button-circle button-red">Video Demo</a>
 								<a href="https://mavo.io" class="button button-mini button-border button-circle button-blue" target="_blank">mavo.io</a>
-								<!-- <a href="/papers/mavo_actions.pdf" class="button button-mini button-border button-circle button-yellow">PDF</a> -->
 							</p>
 
 
@@ -256,25 +238,151 @@ long-term revisitation patterns.		</br>
 						<div class="col-10">
 							<h4 style="padding-bottom:3px; margin-bottom:3px">CoTI: Collaborative Tangible Interface for Complex Decision Support Systems</h4>
 							<p style="padding-bottom:3px; margin-bottom:3px; text-align:justify"> CoTI is a Collaborative Tangible Interface for complex systems that provides multi-touch interactive capabilities with analytical and visualization components to facilitate the decision making process. In CoTI, stakeholders can interact with the 3D objects that we called smart blocks and the multi-touch surface to get an immediate feedback for the impact of their decisions not only on the system under study but also on other related systems affected by those decisions. This adds another dimension to the thinking process, which enhances the users’ experience and enable them to make more informed decisions by understanding the implication of their decisions on other systems. The objective of CoTI is to support the decision making in complex systems. Therefore, an integration with a simulation engine that performs real model analysis is essential.
-
 							</br>
-								<!-- </br></br> -->
-								<!-- <a href="https://github.com/tarfahalrashed/CitySchema" target="_blank">GitHub</a> |
-								<a href="https://www.youtube.com/watch?v=9gttQu1xI_A" target="_blank">Video Demo</a> | -->
-
 								<a href="/papers/coti.pdf" target="_blank">Collaborative Tangible Interface (CoTI) for Complex Decision Support Systems.</a> (DUXU'15) </br>
 								<a href="/papers/observational_study.pdf" target="_blank">An Observational Study of Usability in Collaborative Tangible Interfaces for Complex Planning Systems.</a>(AHFE'15)</br>
 								<a href="/papers/coding_schemes.pdf" target="_blank">Coding Schemes for Observational Studies of Usability in Collaborative Tangible User Interfaces.</a> (HCI'15)
-							</br>
-								<a href="https://github.com/tarfahalrashed/CitySchema" class="button button-mini button-border button-circle button-teal" target="_blank">GitHub</a>
+							  </br>
+								<a id="publications" href="https://github.com/tarfahalrashed/CitySchema" class="button button-mini button-border button-circle button-teal" target="_blank">GitHub</a>
 								<a href="https://www.youtube.com/watch?v=9gttQu1xI_A" target="_blank" class="button button-mini button-border button-circle button-red">Video Demo</a>
-								<!-- <a href="https://mavo.io" class="button button-mini button-border button-circle button-blue">mavo.io</a> -->
 							</p>
 
 						</div>
 
 					</div>
 
+
+				</br></br>
+					<h2 style="text-indent: 15px; border-bottom:0.5px solid #CCC;  padding-bottom:3px;">Publications</h2>
+
+					<div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/scrapir.pdf" target="_blank">ScrAPIr: Making Web Data APIs Accessible to End Users.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, Jumana Almahmoud, Amy X. Zhang, David R. Karger.</br>
+									CHI '20: In Proceedings of ACM Conference on Human Factors in Computing Systems.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/email_significance.pdf" target="_blank">Evaluating User Actions as a Proxy for Email Significance.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, CJ Lee, Peter Bailey, Christopher Lin, Milad Shokouhi & Susan Dumais.</br>
+									WWW '19': In The World Wide Web Conference.
+								</p>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/mavo_actions.pdf" target="_blank">Extending a Reactive Expression Language with Data Update Actions for End-User Application Authoring.</a></h5>
+									</br>
+									Lea Verou, <B>Tarfah Alrashed</B>, David R. Karger.</br>
+									UIST '18: In Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology.
+								</p>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/lifetime_of_email.pdf" target="_blank">The lifetime of email messages: a large-scale analysis of email revisitation.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, Ahmed Hassan Awadallah, Susan Dumais.</br>
+									CHIIR '18: In Proceedings of the 2018 Conference on Human Information Interaction & Retrieval.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/perception.pdf" target="_blank">Perception of speaker personality traits using speech signals.</a></h5>
+									</br>
+									Leilani H. Gilpin, Danielle M. Olson, <B>Tarfah Alrashed</B>.</br>
+									CHI '18: In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems.
+								</p>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/social_communities.pdf" target="_blank">Social Communities in Urban Mobility Systems.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, Jumana Almahmoud, Mohamad Alrished, Sattam Alsubaiee, Mansour Alsaleh, Carlos S. Olascoaga.</br>
+									SCSM '16: In International Conference on Social Computing and Social Media.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/prototyping.pdf" target="_blank">Prototyping Complex Systems: A Diary Study Approach to Understand the Design Process.</a></h5>
+									</br>
+									Jumana Almahmoud, Almaha Almalki, <B>Tarfah Alrashed</B>, Areej Alwabil.</br>
+									DUXU '16: In International Conference of Design, User Experience, and Usability.
+								</p>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/observational_study.pdf" target="_blank">An observational study of usability in collaborative tangible interfaces for complex planning systems.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, Almaha Almalki, Salma Aldawood, Tariq Alhindi, Ira Winder, Ariel Noyman, Anas Alfaris, Areej Alwabil.</br>
+									AHFE '15: In 6th International Conference on Applied Human Factors and Ergonomics and the Affiliated Conferences.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/coding_schemes.pdf" target="_blank">Coding Schemes for Observational Studies of Usability in Collaborative Tangible User Interfaces.</a></h5>
+									</br>
+									<B>Tarfah Alrashed</B>, Almaha Almalki, Salma Aldawood, Anas Alfaris, Areej Alwabil.</br>
+									HCII '15: In International Conference on Human-Computer Interaction.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+							</div>
+							<div class="col-10">
+								<p style="text-align:justify"><a href="papers/coti.pdf" target="_blank">Collaborative Tangible Interface (CoTI) for Complex Decision Support Systems.</a></h5>
+									</br>
+									Salma Aldawood, Faisal Aleissa, Almaha Almalki, <B>Tarfah Alrashed</B>, Tariq Alhindi, Riyadh Alnasser, Mohammad K. Hadhrawi, Anas Alfaris, and Areej Al-Wabi.</br>
+									DUXU '15: In International Conference of Design, User Experience, and Usability.
+								</p>
+							</div>
+						</div>
+
+
+					</div>
 
 				</div>
 
